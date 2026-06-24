@@ -346,6 +346,17 @@
         createModel('llama3.2', 'Llama 3.2', { supportsVision: false })
       ]
     },
+    lmstudio: {
+      id: 'lmstudio',
+      label: 'LM Studio',
+      transport: 'openai',
+      color: '#5D5CDE',
+      colorDark: '#8B8AFF',
+      requiresApiKey: false,
+      defaultBaseUrl: 'http://localhost:1234/v1',
+      defaultModel: '',
+      models: []
+    },
     litellm: {
       id: 'litellm',
       label: 'LiteLLM / Proxy',
